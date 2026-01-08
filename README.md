@@ -2,8 +2,6 @@
 
 A personal portfolio website showcasing my journey as an aspiring Full-Stack Web Developer. Built to demonstrate my skills, projects, and passion for creating modern web applications.
 
-![Portfolio Preview](https://via.placeholder.com/1200x630/0d0d1a/8b5cf6?text=Peter+Gil+Maaño+Portfolio)
-
 ## 👨‍💻 About Me
 
 I'm a Junior Full-Stack Web Developer currently pursuing my Bachelor of Science in Information Technology at Cavite State University Imus Campus. I specialize in building modern web applications using Laravel and React, with a strong foundation in clean code practices and web development fundamentals.
