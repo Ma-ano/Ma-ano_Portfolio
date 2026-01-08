@@ -1,4 +1,4 @@
-# Peter Gil Maaño - Junior Full-Stack Web Developer Portfolio
+# Peter Gil Ma-año - Junior Full-Stack Web Developer Portfolio
 
 A personal portfolio website showcasing my journey as an aspiring Full-Stack Web Developer. Built to demonstrate my skills, projects, and passion for creating modern, secure, and user-friendly web applications.
 
@@ -74,7 +74,7 @@ I'm always learning and open to opportunities to grow my skills and contribute t
 
 - **Email**: [maanopetergil@gmail.com](mailto:maanopetergil@gmail.com)
 - **GitHub**: [@Ma-ano](https://github.com/Ma-ano)
-- **LinkedIn**: [Peter Gil Maaño](https://www.linkedin.com/in/peter-gil-maa%C3%B1o-28364a2b4/)
+- **LinkedIn**: [Peter Gil Ma-año](https://www.linkedin.com/in/peter-gil-maa%C3%B1o-28364a2b4/)
 - **Location**: Philippines
 
 ## 🙏 Acknowledgments
