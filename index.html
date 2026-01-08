@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Peter Gil Maaño - Full-Stack Web Developer specializing in Laravel and React. Building fast, secure, and user-friendly web applications.">
-    <title>Peter Gil Maaño | Full-Stack Web Developer</title>
+    <meta name="description" content="Peter Gil Ma-año - Full-Stack Web Developer specializing in Laravel. Building fast, secure, and user-friendly web applications.">
+    <title>Peter Gil Ma-año | Full-Stack Web Developer</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -89,7 +89,6 @@
             z-index: -1;
             pointer-events: none;
         }
-
         .glass-card {
             background: rgba(26, 26, 62, 0.7);
             backdrop-filter: blur(20px);
@@ -97,32 +96,26 @@
             border: 1px solid rgba(139, 92, 246, 0.3);
             box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
         }
-
         .glass-card:hover {
             border-color: rgba(139, 92, 246, 0.5);
             box-shadow: 0 12px 40px rgba(139, 92, 246, 0.2);
         }
-
         .glow-purple {
             box-shadow: 0 0 30px rgba(139, 92, 246, 0.3);
         }
-
         .glow-text {
             text-shadow: 0 0 20px rgba(139, 92, 246, 0.5);
         }
-
         .nav-pill {
             background: rgba(26, 26, 62, 0.85);
             backdrop-filter: blur(20px);
             -webkit-backdrop-filter: blur(20px);
             border: 1px solid rgba(139, 92, 246, 0.3);
         }
-
         .nav-link.active {
             background: linear-gradient(135deg, #8b5cf6, #6d28d9);
             color: white;
         }
-
         .gradient-orb {
             position: fixed;
             border-radius: 50%;
@@ -131,59 +124,47 @@
             pointer-events: none;
             z-index: -1;
         }
-
         * {
             -webkit-font-smoothing: antialiased;
             -moz-osx-font-smoothing: grayscale;
         }
-
         .reveal {
             opacity: 0;
             transform: translateY(40px);
             transition: all 0.6s ease-out;
         }
-
         .reveal.active {
             opacity: 1;
             transform: translateY(0);
         }
-
         .project-card {
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
-
         .project-card:hover {
             transform: translateY(-10px);
             box-shadow: 0 20px 40px rgba(139, 92, 246, 0.2);
         }
-
         .icon-glow {
             transition: all 0.3s ease;
         }
-
         .icon-glow:hover {
             text-shadow: 0 0 20px currentColor;
             transform: scale(1.1);
         }
-
         .timeline-dot {
             box-shadow: 0 0 10px rgba(139, 92, 246, 0.5);
         }
-
         .contact-card {
             transition: all 0.3s ease;
         }
-
         .contact-card:hover {
             transform: scale(1.02);
             border-color: rgba(139, 92, 246, 0.5);
         }
-
         .btn-glow {
             position: relative;
             overflow: hidden;
         }
-
         .btn-glow::before {
             content: '';
             position: absolute;
@@ -195,12 +176,9 @@
             transform: rotate(45deg);
             transition: all 0.5s ease;
         }
-
         .btn-glow:hover::before {
             left: 100%;
         }
-
-        /* Smooth 60fps tilt effect for project cards */
         .project-tilt {
             --mouse-x: 0;
             --mouse-y: 0;
@@ -214,7 +192,6 @@
             transform-style: preserve-3d;
             will-change: transform;
         }
-
         .project-tilt:hover {
             transform: perspective(1200px)
                        rotateX(calc(var(--mouse-y) * -15deg))
@@ -222,7 +199,6 @@
                        translateY(-10px)
                        translateZ(30px);
         }
-
         .project-tilt .glare {
             position: absolute;
             inset: 0;
@@ -240,11 +216,9 @@
 </head>
 <body class="bg-space-900 text-white overflow-x-hidden">
     <canvas id="starfield"></canvas>
-
     <div class="gradient-orb bg-space-600 w-96 h-96 -top-48 -left-48 animate-pulse"></div>
     <div class="gradient-orb bg-space-700 w-80 h-80 top-1/2 -right-40 animate-pulse" style="animation-delay: 1s;"></div>
     <div class="gradient-orb bg-space-500 w-64 h-64 bottom-0 left-1/3 animate-pulse" style="animation-delay: 2s;"></div>
-
     <nav class="fixed top-6 left-1/2 transform -translate-x-1/2 z-50 nav-pill rounded-full px-6 py-3 hidden md:flex items-center space-x-2">
         <a href="#home" class="nav-link px-4 py-2 rounded-full text-sm font-medium text-gray-300 hover:text-white hover:bg-white/10 transition-all">Home</a>
         <a href="#about" class="nav-link px-4 py-2 rounded-full text-sm font-medium text-gray-300 hover:text-white hover:bg-white/10 transition-all">About</a>
@@ -253,11 +227,9 @@
         <a href="#experience" class="nav-link px-4 py-2 rounded-full text-sm font-medium text-gray-300 hover:text-white hover:bg-white/10 transition-all">Experience</a>
         <a href="#contact" class="nav-link px-4 py-2 rounded-full text-sm font-medium text-gray-300 hover:text-white hover:bg-white/10 transition-all">Contact</a>
     </nav>
-
     <button id="mobile-menu-btn" class="fixed top-6 right-6 z-50 md:hidden p-3 bg-space-800 rounded-full border border-space-600 text-white hover:border-space-400 transition-colors">
         <i class="fas fa-bars text-xl"></i>
     </button>
-
     <div id="mobile-menu" class="fixed inset-0 z-40 bg-space-900/95 backdrop-blur-xl hidden md:hidden flex items-center justify-center">
         <div class="flex flex-col items-center space-y-8">
             <a href="#home" class="text-2xl font-medium text-gray-300 hover:text-space-400 transition-colors mobile-nav-link">Home</a>
@@ -268,31 +240,26 @@
             <a href="#contact" class="text-2xl font-medium text-gray-300 hover:text-space-400 transition-colors mobile-nav-link">Contact</a>
         </div>
     </div>
-
     <main>
         <section id="home" class="min-h-screen flex items-center justify-center pt-20 relative">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
                 <div class="reveal mb-8 relative">
                     <div class="w-40 h-40 mx-auto rounded-full overflow-hidden border-4 border-space-400 glow-purple animate-pulse-glow relative">
-                        <img id="profile-img" src="profile.jpg" alt="Peter Gil Maaño" class="w-full h-full object-cover" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%238b5cf6%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22white%22 font-size=%2240%22>PM</text></svg>'">
+                        <img id="profile-img" src="profile.jpg" alt="Peter Gil Ma-año" class="w-full h-full object-cover" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%238b5cf6%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22white%22 font-size=%2240%22>PM</text></svg>'">
                     </div>
                     <div class="absolute -bottom-2 left-1/2 transform -translate-x-1/2 bg-space-600 text-xs px-3 py-1 rounded-full border border-space-400">
                         <i class="fas fa-code mr-1"></i> Available for work
                     </div>
                 </div>
-
                 <h1 class="reveal text-4xl md:text-6xl font-display font-bold mb-4">
-                    <span class="bg-gradient-to-r from-white via-space-200 to-space-300 bg-clip-text text-transparent">Peter Gil Maaño</span>
+                    <span class="bg-gradient-to-r from-white via-space-200 to-space-300 bg-clip-text text-transparent">Peter Gil Ma-año</span>
                 </h1>
-
                 <div class="reveal h-10 mb-6">
                     <span id="typing-text" class="text-xl md:text-2xl text-space-300 font-medium border-r-2 border-space-400"></span>
                 </div>
-
                 <p class="reveal text-lg text-gray-400 max-w-2xl mx-auto mb-10 leading-relaxed">
-                    Full-Stack Web Developer specializing in Laravel and React. Building fast, secure, and user-friendly web applications designed for scalability, maintainability, and real-world business needs.
+                    Full-Stack Web Developer specializing in Laravel. Building fast, secure, and user-friendly web applications designed for scalability, maintainability, and real-world business needs.
                 </p>
-
                 <div class="reveal flex flex-col sm:flex-row justify-center gap-4">
                     <a href="#projects" class="btn-glow inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-space-600 to-space-500 text-white font-medium rounded-xl hover:from-space-500 hover:to-space-400 transition-all glow-purple">
                         <i class="fas fa-rocket mr-2"></i>
@@ -303,7 +270,6 @@
                         Contact Me
                     </a>
                 </div>
-
                 <div class="reveal mt-16 flex justify-center space-x-8">
                     <a href="https://github.com/Ma-ano" target="_blank" class="text-gray-400 hover:text-space-400 transition-colors icon-glow text-2xl">
                         <i class="fab fa-github"></i>
@@ -316,14 +282,12 @@
                     </a>
                 </div>
             </div>
-
             <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
                 <a href="#about" class="text-gray-400 hover:text-space-400 transition-colors">
                     <i class="fas fa-chevron-down text-2xl"></i>
                 </a>
             </div>
         </section>
-
         <section id="about" class="py-32 relative">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="reveal text-center mb-16">
@@ -332,12 +296,11 @@
                     </h2>
                     <div class="w-20 h-1 bg-gradient-to-r from-space-600 to-space-400 mx-auto rounded-full"></div>
                 </div>
-
                 <div class="grid md:grid-cols-2 gap-12 items-center">
                     <div class="reveal">
                         <div class="glass-card rounded-3xl p-8">
                             <p class="text-gray-300 mb-6 leading-relaxed">
-                                I am a graduate of Information Technology from Cavite State University Imus, with hands-on experience in full-stack web development, specializing in modern web applications using Laravel, React, MySQL, and REST APIs.
+                                I am a graduate of Information Technology from Cavite State University Imus, with hands-on experience in full-stack web development, specializing in modern web applications using Laravel, PHP, MySQL, and REST APIs.
                             </p>
                             <p class="text-gray-300 mb-6 leading-relaxed">
                                 I responsibly leverage AI-assisted tools to enhance productivity, improve problem-solving, and accelerate development, while relying on strong web development fundamentals such as clean code practices, proper system architecture, database optimization, and security best practices.
@@ -347,7 +310,6 @@
                             </p>
                         </div>
                     </div>
-
                     <div class="reveal">
                         <div class="glass-card rounded-3xl p-8">
                             <h3 class="text-xl font-semibold text-white mb-6 flex items-center">
@@ -364,7 +326,6 @@
                                     </div>
                                 </div>
                             </div>
-
                             <h3 class="text-xl font-semibold text-white mt-8 mb-6 flex items-center">
                                 <i class="fas fa-user-astronaut text-space-400 mr-3"></i>
                                 Quick Facts
@@ -384,7 +345,6 @@
                 </div>
             </div>
         </section>
-
         <section id="skills" class="py-32 relative">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="reveal text-center mb-16">
@@ -394,24 +354,21 @@
                     <div class="w-20 h-1 bg-gradient-to-r from-space-600 to-space-400 mx-auto rounded-full"></div>
                     <p class="text-gray-400 mt-4">Technologies and tools I work with</p>
                 </div>
-
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                     <div class="reveal glass-card rounded-2xl p-6 transition-all duration-300 hover:transform hover:-translate-y-2">
-                        <div class="w-14 h-14 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center mb-4">
-                            <i class="fab fa-react text-white text-2xl"></i>
+                        <div class="w-14 h-14 bg-gradient-to-br from-orange-500 to-red-600 rounded-xl flex items-center justify-center mb-4">
+                            <i class="fab fa-html5 text-white text-2xl"></i>
                         </div>
                         <h3 class="text-xl font-semibold text-white mb-4">Frontend</h3>
                         <ul class="space-y-2 text-gray-300 text-sm">
                             <li class="flex items-center"><i class="fab fa-html5 text-orange-500 mr-3 w-5"></i> HTML5</li>
                             <li class="flex items-center"><i class="fab fa-css3-alt text-blue-500 mr-3 w-5"></i> CSS3</li>
                             <li class="flex items-center"><i class="fab fa-js text-yellow-500 mr-3 w-5"></i> JavaScript ES6+</li>
-                            <li class="flex items-center"><i class="fab fa-react text-cyan-400 mr-3 w-5"></i> React.js</li>
                             <li class="flex items-center"><i class="fas fa-wind text-teal-400 mr-3 w-5"></i> Tailwind CSS</li>
                             <li class="flex items-center"><i class="fab fa-bootstrap text-purple-500 mr-3 w-5"></i> Bootstrap</li>
                             <li class="flex items-center"><i class="fas fa-mobile-alt text-gray-400 mr-3 w-5"></i> Mobile-First</li>
                         </ul>
                     </div>
-
                     <div class="reveal glass-card rounded-2xl p-6 transition-all duration-300 hover:transform hover:-translate-y-2" style="transition-delay: 0.1s;">
                         <div class="w-14 h-14 bg-gradient-to-br from-red-500 to-red-600 rounded-xl flex items-center justify-center mb-4">
                             <i class="fab fa-laravel text-white text-2xl"></i>
@@ -426,7 +383,6 @@
                             <li class="flex items-center"><i class="fas fa-sitemap text-gray-400 mr-3 w-5"></i> Architecture</li>
                         </ul>
                     </div>
-
                     <div class="reveal glass-card rounded-2xl p-6 transition-all duration-300 hover:transform hover:-translate-y-2" style="transition-delay: 0.2s;">
                         <div class="w-14 h-14 bg-gradient-to-br from-yellow-500 to-orange-500 rounded-xl flex items-center justify-center mb-4">
                             <i class="fas fa-database text-white text-2xl"></i>
@@ -439,7 +395,6 @@
                             <li class="flex items-center"><i class="fas fa-bolt text-yellow-400 mr-3 w-5"></i> Query Tuning</li>
                         </ul>
                     </div>
-
                     <div class="reveal glass-card rounded-2xl p-6 transition-all duration-300 hover:transform hover:-translate-y-2" style="transition-delay: 0.3s;">
                         <div class="w-14 h-14 bg-gradient-to-br from-gray-600 to-gray-700 rounded-xl flex items-center justify-center mb-4">
                             <i class="fas fa-tools text-white text-2xl"></i>
@@ -457,7 +412,7 @@
                 </div>
             </div>
         </section>
-
+        <!-- Projects, Experience, Contact sections remain unchanged -->
         <section id="projects" class="py-32 relative">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="reveal text-center mb-16">
@@ -467,7 +422,6 @@
                     <div class="w-20 h-1 bg-gradient-to-r from-space-600 to-space-400 mx-auto rounded-full"></div>
                     <p class="text-gray-400 mt-4">Real-world projects delivered</p>
                 </div>
-
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                     <div class="reveal glass-card rounded-3xl overflow-hidden project-card project-tilt">
                         <div class="h-56 bg-gradient-to-br from-blue-600 to-indigo-700 flex items-center justify-center relative">
@@ -500,7 +454,6 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="reveal glass-card rounded-3xl overflow-hidden project-card project-tilt" style="transition-delay: 0.1s;">
                         <div class="h-56 bg-gradient-to-br from-green-400 to-teal-500 flex items-center justify-center relative">
                             <div class="absolute inset-0 bg-black/20"></div>
@@ -538,7 +491,6 @@
                 </div>
             </div>
         </section>
-
         <section id="experience" class="py-32 relative">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="reveal text-center mb-16">
@@ -547,7 +499,6 @@
                     </h2>
                     <div class="w-20 h-1 bg-gradient-to-r from-space-600 to-space-400 mx-auto rounded-full"></div>
                 </div>
-
                 <div class="max-w-4xl mx-auto">
                     <div class="glass-card rounded-3xl p-8 mb-6 reveal project-card">
                         <div class="flex items-start justify-between mb-6">
@@ -580,7 +531,6 @@
                             <span class="px-3 py-1 bg-space-700 text-space-300 text-sm rounded-full">RBAC</span>
                         </div>
                     </div>
-
                     <div class="glass-card rounded-3xl p-8 reveal project-card" style="transition-delay: 0.1s;">
                         <div class="flex items-start justify-between mb-6">
                             <div class="flex items-center">
@@ -611,7 +561,6 @@
                 </div>
             </div>
         </section>
-
         <section id="contact" class="py-32 relative">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="reveal text-center mb-16">
@@ -621,7 +570,6 @@
                     <div class="w-20 h-1 bg-gradient-to-r from-space-600 to-space-400 mx-auto rounded-full"></div>
                     <p class="text-gray-400 mt-4">Let's work together on your next project</p>
                 </div>
-
                 <div class="max-w-2xl mx-auto">
                     <div class="grid md:grid-cols-2 gap-6 mb-10">
                         <a href="mailto:maanopetergil@gmail.com" class="glass-card rounded-2xl p-6 contact-card flex items-center group">
@@ -634,7 +582,6 @@
                             </div>
                             <i class="fas fa-arrow-right ml-auto text-space-400 opacity-0 group-hover:opacity-100 transition-opacity"></i>
                         </a>
-
                         <a href="https://github.com/Ma-ano" target="_blank" rel="noopener noreferrer" class="glass-card rounded-2xl p-6 contact-card flex items-center group">
                             <div class="w-14 h-14 bg-gradient-to-br from-gray-700 to-gray-600 rounded-xl flex items-center justify-center mr-4 group-hover:scale-110 transition-transform">
                                 <i class="fab fa-github text-white text-xl"></i>
@@ -646,7 +593,6 @@
                             <i class="fas fa-arrow-right ml-auto text-space-400 opacity-0 group-hover:opacity-100 transition-opacity"></i>
                         </a>
                     </div>
-
                     <div class="glass-card rounded-3xl p-8 reveal">
                         <div class="flex flex-col md:flex-row items-center justify-between">
                             <div class="flex items-center mb-6 md:mb-0">
@@ -668,12 +614,11 @@
             </div>
         </section>
     </main>
-
     <footer class="bg-space-900 border-t border-space-800 py-8">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-col md:flex-row justify-between items-center">
                 <div class="mb-4 md:mb-0 text-center md:text-left">
-                    <p class="text-lg font-semibold text-white">Peter Gil Maaño</p>
+                    <p class="text-lg font-semibold text-white">Peter Gil Ma-año</p>
                     <p class="text-gray-500">Full-Stack Web Developer</p>
                 </div>
                 <div class="flex space-x-6 mb-4 md:mb-0">
@@ -689,31 +634,26 @@
                 </div>
             </div>
             <div class="mt-6 text-center text-gray-600 text-sm">
-                <p>&copy; 2026 Peter Gil Maaño. Built with passion, clean code, and modern web technologies.</p>
+                <p>&copy; 2026 Peter Gil Ma-año. Built with passion, clean code, and modern web technologies.</p>
             </div>
         </div>
     </footer>
-
     <script>
-        // Starfield
+        // Starfield, typing effect, scroll reveal, tilt, mobile menu, nav highlight, smooth scroll, mouse orbs (unchanged)
         const starfield = document.getElementById('starfield');
         const ctx = starfield.getContext('2d');
-
         function resizeCanvas() {
             starfield.width = window.innerWidth;
             starfield.height = window.innerHeight;
         }
         resizeCanvas();
         window.addEventListener('resize', resizeCanvas);
-
         const stars = [];
         const numStars = 150;
-
         class Star {
             constructor() {
                 this.reset();
             }
-
             reset() {
                 this.x = Math.random() * starfield.width;
                 this.y = Math.random() * starfield.height;
@@ -723,20 +663,17 @@
                 this.twinkleSpeed = Math.random() * 0.02 + 0.01;
                 this.twinkleDirection = 1;
             }
-
             update() {
                 this.y -= this.speed;
                 if (this.y < 0) {
                     this.y = starfield.height;
                     this.x = Math.random() * starfield.width;
                 }
-
                 this.opacity += this.twinkleSpeed * this.twinkleDirection;
                 if (this.opacity >= 0.8 || this.opacity <= 0.2) {
                     this.twinkleDirection *= -1;
                 }
             }
-
             draw() {
                 ctx.beginPath();
                 ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
@@ -744,11 +681,9 @@
                 ctx.fill();
             }
         }
-
         for (let i = 0; i < numStars; i++) {
             stars.push(new Star());
         }
-
         function animateStars() {
             ctx.clearRect(0, 0, starfield.width, starfield.height);
             stars.forEach(star => {
@@ -759,16 +694,13 @@
         }
         animateStars();
 
-        // Typing effect
         const typingText = document.getElementById('typing-text');
-        const phrases = ['Full-Stack Web Developer', 'Laravel Expert', 'React Developer', 'Problem Solver'];
+        const phrases = ['Full-Stack Web Developer', 'Laravel Expert', 'PHP Developer', 'Problem Solver'];
         let phraseIndex = 0;
         let charIndex = 0;
         let isDeleting = false;
-
         function typeEffect() {
             const currentPhrase = phrases[phraseIndex];
-
             if (isDeleting) {
                 typingText.textContent = currentPhrase.substring(0, charIndex - 1);
                 charIndex--;
@@ -776,9 +708,7 @@
                 typingText.textContent = currentPhrase.substring(0, charIndex + 1);
                 charIndex++;
             }
-
             let typeSpeed = isDeleting ? 50 : 100;
-
             if (!isDeleting && charIndex === currentPhrase.length) {
                 typeSpeed = 2000;
                 isDeleting = true;
@@ -787,19 +717,15 @@
                 phraseIndex = (phraseIndex + 1) % phrases.length;
                 typeSpeed = 500;
             }
-
             setTimeout(typeEffect, typeSpeed);
         }
         typeEffect();
 
-        // Scroll reveal
         const revealElements = document.querySelectorAll('.reveal');
-
         function revealOnScroll() {
             revealElements.forEach(element => {
                 const elementTop = element.getBoundingClientRect().top;
                 const windowHeight = window.innerHeight;
-
                 if (elementTop < windowHeight - 100) {
                     element.classList.add('active');
                 }
@@ -808,44 +734,34 @@
         window.addEventListener('scroll', revealOnScroll);
         revealOnScroll();
 
-        // Smooth 60fps tilt for project cards with dynamic glare
         const tiltCards = document.querySelectorAll('.project-tilt');
-        
         const pendingUpdates = new Map();
         let rafId = null;
-
         function updateTiltCard(card) {
             const rect = card.getBoundingClientRect();
             const x = (card._mouseX - rect.left) / rect.width - 0.5;
             const y = (card._mouseY - rect.top) / rect.height - 0.5;
-            
             card.style.setProperty('--mouse-x', x);
             card.style.setProperty('--mouse-y', y);
-            
             const glareX = card._mouseX - rect.left;
             const glareY = card._mouseY - rect.top;
             card.style.setProperty('--glare-x', `${glareX}px`);
             card.style.setProperty('--glare-y', `${glareY}px`);
         }
-
         function processTiltUpdates() {
             pendingUpdates.forEach((_, card) => updateTiltCard(card));
             pendingUpdates.clear();
             rafId = null;
         }
-
         tiltCards.forEach(card => {
             card._mouseX = 0;
             card._mouseY = 0;
-            
             const glare = document.createElement('div');
             glare.className = 'glare';
             card.appendChild(glare);
-            
             card.addEventListener('mousemove', (e) => {
                 card._mouseX = e.clientX;
                 card._mouseY = e.clientY;
-                
                 if (!pendingUpdates.has(card)) {
                     pendingUpdates.set(card, true);
                     if (!rafId) {
@@ -853,11 +769,9 @@
                     }
                 }
             });
-
             card.addEventListener('mouseleave', () => {
                 card._mouseX = 0;
                 card._mouseY = 0;
-                
                 if (!pendingUpdates.has(card)) {
                     pendingUpdates.set(card, true);
                     if (!rafId) {
@@ -867,11 +781,9 @@
             });
         });
 
-        // Mobile menu
         const mobileMenuBtn = document.getElementById('mobile-menu-btn');
         const mobileMenu = document.getElementById('mobile-menu');
         const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
-
         mobileMenuBtn.addEventListener('click', () => {
             mobileMenu.classList.toggle('hidden');
             const icon = mobileMenuBtn.querySelector('i');
@@ -883,7 +795,6 @@
                 icon.classList.add('fa-times');
             }
         });
-
         mobileNavLinks.forEach(link => {
             link.addEventListener('click', () => {
                 mobileMenu.classList.add('hidden');
@@ -893,17 +804,13 @@
             });
         });
 
-        // Active nav link
         const navLinks = document.querySelectorAll('.nav-link');
         const sections = document.querySelectorAll('section[id]');
-
         function highlightNavLink() {
             const scrollPos = window.scrollY + 150;
-
             sections.forEach(section => {
                 const sectionTop = section.offsetTop;
                 const sectionHeight = section.offsetHeight;
-
                 if (scrollPos >= sectionTop && scrollPos < sectionTop + sectionHeight) {
                     const currentId = section.getAttribute('id');
                     navLinks.forEach(link => {
@@ -918,7 +825,6 @@
         window.addEventListener('scroll', highlightNavLink);
         highlightNavLink();
 
-        // Smooth scroll
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function(e) {
                 e.preventDefault();
@@ -932,14 +838,11 @@
             });
         });
 
-        // Mouse-following orbs
         let mouseX = 0;
         let mouseY = 0;
-
         document.addEventListener('mousemove', (e) => {
             mouseX = e.clientX / window.innerWidth - 0.5;
             mouseY = e.clientY / window.innerHeight - 0.5;
-
             const gradientOrbs = document.querySelectorAll('.gradient-orb');
             gradientOrbs.forEach((orb, index) => {
                 const speed = (index + 1) * 20;
