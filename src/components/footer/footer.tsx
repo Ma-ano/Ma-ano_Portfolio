@@ -32,10 +32,11 @@ export default function Footer() {
           </li>
           <li>
             <a
-              href={`mailto:${profile.email}`}
+              href={profile.viber}
               className="text-text-subtle hover:text-text transition-colors duration-200"
+              aria-label={`Chat on Viber: ${profile.viberDisplay}`}
             >
-              Email
+              Viber
             </a>
           </li>
         </ul>

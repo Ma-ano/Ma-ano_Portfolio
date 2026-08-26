@@ -6,7 +6,8 @@ export const profile = {
   email: 'manopetergil@gmail.com',
   github: 'https://github.com/ma-ano',
   linkedin: 'https://linkedin.com/in/peter-gil-maaño-28364a2b4',
-  portfolioUrl: 'https://ma-ano.github.io/Ma-ano_Portfolio',
+  viber: 'viber://chat?number=%2B639755569789',
+  viberDisplay: '+63 975 556 9789',
 } as const
 
 export interface Project {

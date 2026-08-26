@@ -42,15 +42,15 @@ export default function Contact() {
           </a>
 
           <a
-            href={`tel:+63${profile.phone.replace(/\s/g, '').slice(1)}`}
+            href={profile.viber}
             className="card group"
-            aria-label={`Call ${profile.name} at ${profile.phone}`}
+            aria-label={`Chat on Viber: ${profile.viberDisplay}`}
           >
-            <h3 className="text-sm font-medium tracking-widest uppercase text-text-subtle">Phone</h3>
+            <h3 className="text-sm font-medium tracking-widest uppercase text-text-subtle">Viber</h3>
             <p className="mt-4 text-base text-text group-hover:text-accent-muted transition-colors duration-200">
-              {profile.phone}
+              {profile.viberDisplay}
             </p>
-            <p className="mt-1 text-sm text-text-subtle">{profile.location}</p>
+            <p className="mt-1 text-sm text-text-subtle">Chat on Viber</p>
           </a>
 
           <div className="card">
