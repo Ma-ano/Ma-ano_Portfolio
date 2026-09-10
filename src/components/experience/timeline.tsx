@@ -14,7 +14,7 @@ const responsibilities = [
   {
     title: 'Sound engineering practices',
     description:
-      'Build with Next.js, React, Firebase, and Laravel, covering database design, server-side authentication, payment and email integration, and responsive interfaces.',
+      'Build with Next.js, React, Firebase, and Laravel MVC with Blade, covering database design, server-side authentication, payment and email integration, PDF and spreadsheet handling, and responsive interfaces.',
   },
 ]
 

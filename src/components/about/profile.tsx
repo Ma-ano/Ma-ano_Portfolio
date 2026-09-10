@@ -34,8 +34,13 @@ export default function About() {
             <p>
               For Pinay Victorious Beauty Australia, I use Next.js 16, React 19, TypeScript,
               Tailwind CSS 4, and Firebase to support the storefront and admin dashboard,
-              with PayPal and Afterpay payments. My school management work uses Laravel,
-              PHP, and MySQL for academic records and administrative workflows.
+              with PayPal and Afterpay payments.
+            </p>
+            <p>
+              For Everbright International Academy Inc., I use Laravel 11, PHP 8.2+, and MySQL,
+              with server-rendered Blade templates and Bootstrap 5.3. Hosted on Hostinger,
+              the system supports academic records and administrative workflows, with Laravel
+              Dompdf for PDFs and PhpSpreadsheet for spreadsheet handling.
             </p>
             <p>
               My work covers database design, server-side authentication, file storage,
@@ -65,12 +70,14 @@ export default function About() {
                 {[
                   'Next.js & React',
                   'TypeScript & Tailwind CSS',
-                  'Laravel & PHP',
+                  'Laravel, PHP & Blade',
                   'Firestore & MySQL',
                   'Route Handlers & REST APIs',
                   'Firebase Authentication & RBAC',
                   'PayPal & Afterpay',
-                  'Responsive UI',
+                  'Bootstrap & responsive UI',
+                  'PDFs & spreadsheets',
+                  'Hostinger & Vercel',
                   'Debugging & root-cause analysis',
                   'Requirements gathering',
                   'Client communication',

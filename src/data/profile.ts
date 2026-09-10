@@ -70,11 +70,11 @@ export const projects: Project[] = [
     name: 'Everbright International Academy Inc.',
     type: 'School Management System — Production Client Project',
     overview:
-      'A school management system for managing teachers, students, batches, subjects, grades, and academic records — supporting day-to-day academic and financial operations.',
+      'A school management system hosted on Hostinger, built with Laravel 11, PHP 8.2+, and MySQL. Server-rendered Blade pages support teachers, students, batches, subjects, grades, academic records, and day-to-day academic and financial operations.',
     role: 'Full-Stack Developer — database design through delivery',
     built: [
       'Multi-role authentication with role-based access control across administrative workflows',
-      'Grade tracking with PDF export for academic records',
+      'Grade tracking with PDF export for academic records using Laravel Dompdf',
       'Database structures and application logic supporting academic and financial operations',
     ],
     features: [
@@ -90,12 +90,20 @@ export const projects: Project[] = [
       'Financial operations',
     ],
     technicalAreas: [
-      'Database design',
+      'Traditional Laravel MVC architecture with server-rendered Blade templates',
+      'HTML, CSS, and JavaScript with Bootstrap 5.3 & Bootstrap Icons',
+      'MySQL database design',
       'Application logic for academic operations',
       'Security & access control',
+      'HTTP requests with Axios',
+      'PDF generation with Laravel Dompdf',
+      'Spreadsheet handling with PhpSpreadsheet',
+      'Frontend asset builds with Vite 5 & npm',
+      'Testing with PHPUnit 10.5',
+      'Hostinger hosting with Apache-compatible .htaccess configuration',
     ],
     liveUrl: 'https://everbrightinternationalacademyinc.online/',
-    technologies: ['Laravel 11', 'PHP 8+', 'MySQL', 'Bootstrap 5', 'RBAC', 'PDF Export'],
+    technologies: ['Laravel 11', 'PHP 8.2+', 'Blade', 'MySQL', 'Bootstrap 5.3', 'Hostinger'],
   },
   {
     name: 'Luxury Fashion E-Commerce UI',
@@ -129,11 +137,11 @@ export interface SkillCategory {
 export const skillCategories: SkillCategory[] = [
   {
     label: 'Frontend',
-    skills: ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'Next.js 16', 'React 19', 'Vue 3', 'Tailwind CSS 4', 'Bootstrap 5', 'Ionic', 'Vite', 'Framer Motion', 'Motion.dev'],
+    skills: ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'Next.js 16', 'React 19', 'Blade Templates', 'Vue 3', 'Tailwind CSS 4', 'Bootstrap 5.3', 'Bootstrap Icons', 'Ionic', 'Framer Motion', 'Motion.dev'],
   },
   {
     label: 'Backend',
-    skills: ['Next.js App Router & Route Handlers', 'Firebase Admin', 'Firebase Authentication', 'Laravel 11', 'PHP 8+', 'Python', 'REST APIs', 'Authentication', 'Authorization', 'RBAC'],
+    skills: ['Next.js App Router & Route Handlers', 'Firebase Admin', 'Firebase Authentication', 'Laravel 11', 'PHP 8.2+', 'MVC Architecture', 'Python', 'REST APIs', 'Authentication', 'Authorization', 'RBAC'],
   },
   {
     label: 'Data',
@@ -145,11 +153,11 @@ export const skillCategories: SkillCategory[] = [
   },
   {
     label: 'Integrations',
-    skills: ['PayPal', 'Afterpay', 'Nodemailer / SMTP', 'Next.js Image', 'Sharp', 'Vercel Speed Insights', 'REST APIs', 'Third-Party Services'],
+    skills: ['PayPal', 'Afterpay', 'Nodemailer / SMTP', 'Axios', 'Laravel Dompdf', 'PhpSpreadsheet', 'Next.js Image', 'Sharp', 'Vercel Speed Insights', 'REST APIs', 'Third-Party Services'],
   },
   {
     label: 'Tools',
-    skills: ['Git', 'GitHub', 'VS Code', 'NPM', 'Vercel', 'Firebase', 'AI-Assisted Development Tools'],
+    skills: ['Git', 'GitHub', 'VS Code', 'npm', 'Vite', 'PHPUnit 10.5', 'Hostinger', 'Apache .htaccess', 'Vercel', 'Firebase', 'AI-Assisted Development Tools'],
   },
 ]
 
