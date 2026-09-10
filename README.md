@@ -1,32 +1,30 @@
-# React + TypeScript + Vite
+# Peter Gil T. Ma-año
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Portfolio of a freelance full-stack developer based in Las Piñas City, Philippines, showcasing production client projects, technical skills, experience, and education.
 
-Currently, two official plugins are available:
+## Featured projects
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Pinay Victorious Beauty Australia:** Full-stack e-commerce platform using Next.js 16 (App Router and Route Handlers), React 19, TypeScript, Tailwind CSS 4, and Firebase Firestore. Firebase Authentication is verified server-side with Firebase Admin, and files use Firebase Storage. Integrations include PayPal, Afterpay, and Nodemailer/SMTP. Framer Motion handles animations; Next.js Image and Sharp handle image processing; Vercel Speed Insights monitors performance. The app is structured for Vercel, with Firebase rules deployed separately.
+- **Everbright International Academy Inc.:** School management system using Laravel 11, PHP 8+, MySQL, and Bootstrap 5, with role-based access control and PDF export.
+- **Luxury Fashion E-Commerce UI:** Personal frontend project using React, TypeScript, Tailwind CSS, Motion.dev, and Vite.
 
-## React Compiler
+## Portfolio website
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This portfolio itself uses React 19, TypeScript, Tailwind CSS 4, Motion, and Vite.
 
-## Expanding the Oxlint configuration
+## Development
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+```sh
+npm ci
+npm run dev
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## Checks and production build
+
+```sh
+npm run lint
+npm run build
+npm run preview
+```
+
+Profile, project, and skill content is maintained in `src/data/profile.ts`. Search and social metadata is in `index.html`.

@@ -1,5 +1,5 @@
 export const profile = {
-  name: 'Peter Gil T. Ma-Año',
+  name: 'Peter Gil T. Ma-año',
   roles: ['Full-Stack Developer', 'Software Developer', 'Web & Mobile Developer'],
   location: 'Las Piñas City, Philippines',
   phone: '0961 317 6898',
@@ -129,15 +129,15 @@ export interface SkillCategory {
 export const skillCategories: SkillCategory[] = [
   {
     label: 'Frontend',
-    skills: ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'React', 'Vue 3', 'Tailwind CSS', 'Bootstrap 5', 'Ionic', 'Vite', 'Motion.dev'],
+    skills: ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'Next.js 16', 'React 19', 'Vue 3', 'Tailwind CSS 4', 'Bootstrap 5', 'Ionic', 'Vite', 'Framer Motion', 'Motion.dev'],
   },
   {
     label: 'Backend',
-    skills: ['Laravel 11', 'PHP 8+', 'Python', 'REST APIs', 'Authentication', 'Authorization', 'RBAC'],
+    skills: ['Next.js App Router & Route Handlers', 'Firebase Admin', 'Firebase Authentication', 'Laravel 11', 'PHP 8+', 'Python', 'REST APIs', 'Authentication', 'Authorization', 'RBAC'],
   },
   {
     label: 'Data',
-    skills: ['MySQL', 'MongoDB', 'Firebase / Firestore', 'Database Design', 'Database Optimization'],
+    skills: ['Firebase Firestore', 'Firebase Storage', 'Firebase Security Rules', 'MySQL', 'MongoDB', 'Database Design', 'Database Optimization'],
   },
   {
     label: 'Mobile',
@@ -145,11 +145,11 @@ export const skillCategories: SkillCategory[] = [
   },
   {
     label: 'Integrations',
-    skills: ['PayPal', 'Afterpay', 'Debit/Credit Card Payments', 'REST APIs', 'Third-Party Services'],
+    skills: ['PayPal', 'Afterpay', 'Nodemailer / SMTP', 'Next.js Image', 'Sharp', 'Vercel Speed Insights', 'REST APIs', 'Third-Party Services'],
   },
   {
     label: 'Tools',
-    skills: ['Git', 'GitHub', 'VS Code', 'NPM', 'AI-Assisted Development Tools'],
+    skills: ['Git', 'GitHub', 'VS Code', 'NPM', 'Vercel', 'Firebase', 'AI-Assisted Development Tools'],
   },
 ]
 

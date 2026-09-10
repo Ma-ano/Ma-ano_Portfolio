@@ -28,14 +28,20 @@ export default function About() {
             <p>
               I'm an Information Technology graduate and freelance full-stack developer based in{' '}
               <span className="text-text">{profile.location}</span>. I build production web
-              applications for real businesses — not demos, not prototypes. Systems that handle
+              applications for businesses, with systems that handle
               payments, orders, grades, and the day-to-day operations people depend on.
             </p>
             <p>
-              My work spans the full stack: frontend interfaces, backend logic, database design,
-              REST APIs, authentication and RBAC, payment integration, and responsive UI. When
-              something breaks, I dig for root causes — and when a client describes what they
-              need in plain language, I translate it into reliable, maintainable systems.
+              For Pinay Victorious Beauty Australia, I use Next.js 16, React 19, TypeScript,
+              Tailwind CSS 4, and Firebase to support the storefront and admin dashboard,
+              with PayPal and Afterpay payments. My school management work uses Laravel,
+              PHP, and MySQL for academic records and administrative workflows.
+            </p>
+            <p>
+              My work covers database design, server-side authentication, file storage,
+              email integration, responsive interfaces, and image optimization. I translate
+              client requirements into maintainable applications and troubleshoot issues
+              across the frontend and backend.
             </p>
             <p>
               I work independently from requirements gathering through planning, implementation,
@@ -57,13 +63,13 @@ export default function About() {
               </h3>
               <ul className="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-x-8 gap-y-3 text-base">
                 {[
-                  'Full-stack development',
-                  'Backend development',
-                  'Frontend development',
-                  'Database design',
-                  'REST APIs',
-                  'Authentication & RBAC',
-                  'Payment integration',
+                  'Next.js & React',
+                  'TypeScript & Tailwind CSS',
+                  'Laravel & PHP',
+                  'Firestore & MySQL',
+                  'Route Handlers & REST APIs',
+                  'Firebase Authentication & RBAC',
+                  'PayPal & Afterpay',
                   'Responsive UI',
                   'Debugging & root-cause analysis',
                   'Requirements gathering',

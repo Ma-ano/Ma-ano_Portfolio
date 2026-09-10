@@ -32,7 +32,7 @@ export default function Hero() {
             transition={{ duration: 0.8, ease: 'easeOut', delay: 0.1 }}
             className="text-5xl sm:text-6xl lg:text-7xl font-light tracking-tight text-text leading-[1.05] text-balance"
           >
-            Peter Gil T. Ma-Año
+            {profile.name}
           </motion.h1>
 
           <motion.div
@@ -54,8 +54,8 @@ export default function Hero() {
             transition={{ duration: 0.8, ease: 'easeOut', delay: 0.3 }}
             className="mt-8 text-lg sm:text-xl text-text-muted max-w-2xl mx-auto leading-relaxed text-balance"
           >
-            I build production web applications for real businesses. From e-commerce platforms
-            to school management systems — full-stack, end-to-end.
+            I build e-commerce platforms and school management systems with Next.js, React,
+            Firebase, and Laravel — from customer interfaces to backend services and deployment.
           </motion.p>
 
           <motion.div

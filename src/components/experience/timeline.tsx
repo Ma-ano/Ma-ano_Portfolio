@@ -14,7 +14,7 @@ const responsibilities = [
   {
     title: 'Sound engineering practices',
     description:
-      'Apply maintainable architecture, database design, authentication, API integration, responsive design, and security best practices.',
+      'Build with Next.js, React, Firebase, and Laravel, covering database design, server-side authentication, payment and email integration, and responsive interfaces.',
   },
 ]
 

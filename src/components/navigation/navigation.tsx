@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'motion/react'
+import { profile } from '../../data/profile'
 
 const navLinks = [
   { href: '#about', label: 'About' },
@@ -35,9 +36,9 @@ export default function Navigation() {
           <a
             href="/"
             className="text-xl font-light tracking-tight text-text hover:text-text-muted transition-colors duration-200"
-            aria-label="Peter Gil T. Ma-Año - Home"
+            aria-label={`${profile.name} - Home`}
           >
-            Peter Gil T. Ma-Año
+            {profile.name}
           </a>
 
           <div className="hidden md:flex items-center gap-8">
