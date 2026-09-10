@@ -28,7 +28,7 @@ export const projects: Project[] = [
     name: 'Pinay Victorious Beauty Australia',
     type: 'E-Commerce Platform — Production Client Project',
     overview:
-      'A production e-commerce website and administrator dashboard for an Australian beauty business, handling the full customer journey from browsing to checkout.',
+      'A production full-stack e-commerce website and administrator dashboard for an Australian beauty business, built with Next.js, React, TypeScript, Tailwind CSS, and Firebase, with PayPal and Afterpay payments.',
     role: 'Full-Stack Developer — requirements gathering through deployment',
     built: [
       'Complete storefront with product catalog, categories, search, product details, variants, and stock availability',
@@ -52,13 +52,19 @@ export const projects: Project[] = [
     technicalAreas: [
       'Responsive customer interface (desktop, tablet, mobile)',
       'Responsive admin interface',
-      'Database design',
-      'Authentication & user management',
+      'Next.js 16 App Router & Route Handlers',
+      'Firebase Firestore database design',
+      'Firebase Authentication with server-side Firebase Admin verification',
+      'Firebase Storage for file storage',
+      'Framer Motion animations',
+      'Image processing with Next.js Image & Sharp',
+      'Performance monitoring with Vercel Speed Insights',
+      'Structured for Vercel hosting, with Firebase rules deployed separately',
       'Client collaboration — gathering requirements, troubleshooting, iterating on feedback',
     ],
-    integrations: ['Debit/credit card payments', 'PayPal', 'Afterpay'],
+    integrations: ['PayPal', 'Afterpay', 'Nodemailer / SMTP email'],
     liveUrl: 'https://pinayvictoriousbeauty.com.au/',
-    technologies: ['Laravel 11', 'PHP 8+', 'React', 'MySQL', 'Tailwind CSS', 'REST APIs'],
+    technologies: ['Next.js 16', 'React 19', 'TypeScript', 'Tailwind CSS 4', 'Firebase'],
   },
   {
     name: 'Everbright International Academy Inc.',
