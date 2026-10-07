@@ -17,9 +17,9 @@ export default function Contact() {
             Have a project in mind? Let's build it.
           </h2>
           <p className="section-subtitle">
-            I'm available for freelance and software development work. Whether you need a full
-            application built from the ground up or an existing system improved, I'd like to
-            hear about it.
+            I'm available for freelance software development and AI automation work. Whether you
+            need a full application, an automated workflow, or an existing system improved, I'd
+            like to hear about it.
           </p>
         </motion.div>
 

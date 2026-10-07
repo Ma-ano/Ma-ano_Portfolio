@@ -1,6 +1,6 @@
 # Peter Gil T. Ma-año
 
-Portfolio of a freelance full-stack developer based in Las Piñas City, Philippines, showcasing production client projects, technical skills, experience, and education.
+Portfolio of Peter Gil T. Ma-año, a freelance full-stack and AI automation developer based in Las Piñas City, Philippines, showcasing production client projects, technical skills, experience, and education.
 
 ## Featured projects
 
@@ -8,9 +8,11 @@ Portfolio of a freelance full-stack developer based in Las Piñas City, Philippi
 - **Everbright International Academy Inc.:** School management system hosted on Hostinger, using PHP 8.2+, Laravel 11, and MySQL with traditional MVC architecture. Blade templates render the frontend using HTML, CSS, JavaScript, Bootstrap 5.3, and Bootstrap Icons. The project uses Vite 5 and npm for asset builds, Axios for HTTP requests, Laravel Dompdf for PDF generation, PhpSpreadsheet for spreadsheet handling, and PHPUnit 10.5 for testing, with Apache-compatible `.htaccess` server configuration. Features include role-based access control, academic records, and administrative workflows.
 - **Luxury Fashion E-Commerce UI:** Personal frontend project using React, TypeScript, Tailwind CSS, Motion.dev, and Vite.
 
+I also build AI automation workflows that connect tools, APIs, and business processes to reduce repetitive work and improve operational efficiency.
+
 ## Portfolio website
 
-This portfolio itself uses React 19, TypeScript, Tailwind CSS 4, Motion, and Vite.
+This portfolio itself uses React 19, TypeScript, Tailwind CSS 4, Motion, and Vite. It presents full-stack development and AI automation as core service areas.
 
 ## Development
 

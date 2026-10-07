@@ -21,7 +21,7 @@ export default function Hero() {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-500 opacity-75" />
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500" />
               </span>
-              Available for freelance work
+              Available for freelance and AI automation work
             </span>
           </motion.div>
 
@@ -43,6 +43,8 @@ export default function Hero() {
           >
             <span className="font-medium text-text">Full-Stack Developer</span>
             <span aria-hidden="true">•</span>
+            <span className="font-medium text-text">AI Automation Developer</span>
+            <span aria-hidden="true">•</span>
             <span className="font-medium text-text">Software Developer</span>
             <span aria-hidden="true">•</span>
             <span className="font-medium text-text">Web & Mobile Developer</span>
@@ -54,8 +56,9 @@ export default function Hero() {
             transition={{ duration: 0.8, ease: 'easeOut', delay: 0.3 }}
             className="mt-8 text-lg sm:text-xl text-text-muted max-w-2xl mx-auto leading-relaxed text-balance"
           >
-            I build e-commerce platforms and school management systems with Next.js, React,
-            Firebase, and Laravel — from customer interfaces to backend services and deployment.
+            I build e-commerce platforms, school management systems, and AI-powered automations
+            with Next.js, React, Firebase, and Laravel — from customer interfaces to backend
+            services, connected workflows, and deployment.
           </motion.p>
 
           <motion.div

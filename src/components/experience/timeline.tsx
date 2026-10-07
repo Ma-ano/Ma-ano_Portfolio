@@ -14,7 +14,7 @@ const responsibilities = [
   {
     title: 'Sound engineering practices',
     description:
-      'Build with Next.js, React, Firebase, and Laravel MVC with Blade, covering database design, server-side authentication, payment and email integration, PDF and spreadsheet handling, and responsive interfaces.',
+      'Build with Next.js, React, Firebase, and Laravel MVC with Blade, covering database design, server-side authentication, payment and email integration, PDF and spreadsheet handling, responsive interfaces, and AI automation workflows.',
   },
 ]
 
@@ -42,7 +42,7 @@ export default function Experience() {
             transition={{ duration: 0.6, ease: 'easeOut', delay: 0.1 }}
             className="lg:col-span-4"
           >
-            <h3 className="text-xl font-medium text-text">Freelance Full-Stack Developer</h3>
+            <h3 className="text-xl font-medium text-text">Freelance Full-Stack & AI Automation Developer</h3>
             <p className="mt-2 text-base text-text-muted">Philippines</p>
             <p className="mt-1 text-sm text-text-subtle">2025 – Present</p>
             <p className="mt-6 text-base leading-relaxed text-text-muted">

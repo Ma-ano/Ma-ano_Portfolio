@@ -1,6 +1,6 @@
 export const profile = {
   name: 'Peter Gil T. Ma-año',
-  roles: ['Full-Stack Developer', 'Software Developer', 'Web & Mobile Developer'],
+  roles: ['Full-Stack Developer', 'AI Automation Developer', 'Software Developer', 'Web & Mobile Developer'],
   location: 'Las Piñas City, Philippines',
   phone: '0961 317 6898',
   email: 'manopetergil@gmail.com',
@@ -159,6 +159,10 @@ export const skillCategories: SkillCategory[] = [
     label: 'Tools',
     skills: ['Git', 'GitHub', 'VS Code', 'npm', 'Vite', 'PHPUnit 10.5', 'Hostinger', 'Apache .htaccess', 'Vercel', 'Firebase', 'AI-Assisted Development Tools'],
   },
+  {
+    label: 'AI & Automation',
+    skills: ['AI Automation', 'Workflow Automation', 'Automation Architecture', 'API Integrations', 'AI-Assisted Development Tools'],
+  },
 ]
 
 export const coreStrengths = [
@@ -171,6 +175,7 @@ export const coreStrengths = [
   'Independent Work',
   'Project Planning',
   'Technical Communication',
+  'AI Automation',
   'Adaptability',
 ] as const
 

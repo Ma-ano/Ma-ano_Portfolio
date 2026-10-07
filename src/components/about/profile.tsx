@@ -26,7 +26,8 @@ export default function About() {
             className="lg:col-span-3 space-y-6 text-lg leading-relaxed text-text-muted"
           >
             <p>
-              I'm an Information Technology graduate and freelance full-stack developer based in{' '}
+              I'm an Information Technology graduate, freelance full-stack developer, and AI
+              automation developer based in{' '}
               <span className="text-text">{profile.location}</span>. I build production web
               applications for businesses, with systems that handle
               payments, orders, grades, and the day-to-day operations people depend on.
@@ -47,6 +48,10 @@ export default function About() {
               email integration, responsive interfaces, and image optimization. I translate
               client requirements into maintainable applications and troubleshoot issues
               across the frontend and backend.
+            </p>
+            <p>
+              I also design AI automation workflows that connect tools, APIs, and business
+              processes to reduce repetitive work and make systems more efficient.
             </p>
             <p>
               I work independently from requirements gathering through planning, implementation,
@@ -78,6 +83,7 @@ export default function About() {
                   'Bootstrap & responsive UI',
                   'PDFs & spreadsheets',
                   'Hostinger & Vercel',
+                  'AI automation & workflows',
                   'Debugging & root-cause analysis',
                   'Requirements gathering',
                   'Client communication',
